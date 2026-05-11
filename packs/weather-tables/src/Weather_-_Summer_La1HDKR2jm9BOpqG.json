@@ -1,0 +1,315 @@
+{
+  "_id": "La1HDKR2jm9BOpqG",
+  "description": "Roll 2d6 daily to determine prevailing weather conditions in Dolmenwood.",
+  "displayRoll": true,
+  "flags": {},
+  "folder": null,
+  "formula": "2d6",
+  "img": "icons/svg/d6-grey.svg",
+  "name": "Weather \u2014 Summer",
+  "replacement": true,
+  "results": [
+    {
+      "_id": "PUqWm6To7Ah5vALZ",
+      "description": "Cool winds",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        2,
+        2
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!La1HDKR2jm9BOpqG.PUqWm6To7Ah5vALZ"
+    },
+    {
+      "_id": "iUUbTLNJU5BF7DgN",
+      "description": "Low cloud, mist<br><b>Effect:</b> Poor Visibility: Encounter distance is halved. Chance of getting lost increased by 1-in-6.",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        3,
+        3
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!La1HDKR2jm9BOpqG.iUUbTLNJU5BF7DgN"
+    },
+    {
+      "_id": "PSXcdB7uGvGYINCT",
+      "description": "Warm, gentle rain<br><b>Effect:</b> Wet Conditions: Building a campfire is difficult.",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        4,
+        4
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!La1HDKR2jm9BOpqG.PSXcdB7uGvGYINCT"
+    },
+    {
+      "_id": "lQ7A1pLto2CcXX4B",
+      "description": "Brooding thunder",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        5,
+        5
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!La1HDKR2jm9BOpqG.lQ7A1pLto2CcXX4B"
+    },
+    {
+      "_id": "5KeCHmGninlonNwv",
+      "description": "Balmy, clear",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        6,
+        6
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!La1HDKR2jm9BOpqG.5KeCHmGninlonNwv"
+    },
+    {
+      "_id": "virOvkIJjfzHq784",
+      "description": "Hot, humid",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        7,
+        7
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!La1HDKR2jm9BOpqG.virOvkIJjfzHq784"
+    },
+    {
+      "_id": "cmVxH7Dzfeuvpg2g",
+      "description": "Overcast, muggy",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        8,
+        8
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!La1HDKR2jm9BOpqG.cmVxH7Dzfeuvpg2g"
+    },
+    {
+      "_id": "EWSHJXO58XHuJdB1",
+      "description": "Sweltering, still",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        9,
+        9
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!La1HDKR2jm9BOpqG.EWSHJXO58XHuJdB1"
+    },
+    {
+      "_id": "egUWctRLS7FIg4I4",
+      "description": "Baking, dry",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        10,
+        10
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!La1HDKR2jm9BOpqG.egUWctRLS7FIg4I4"
+    },
+    {
+      "_id": "c9Ky8bsoUHR76kyQ",
+      "description": "Warm wind",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        11,
+        11
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!La1HDKR2jm9BOpqG.c9Ky8bsoUHR76kyQ"
+    },
+    {
+      "_id": "yMLRfyONgtiGcGSZ",
+      "description": "Thunder storm<br><b>Effect:</b> Poor Visibility: Encounter distance is halved. Chance of getting lost increased by 1-in-6. <b>Effect:</b> Wet Conditions: Building a campfire is difficult.",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        12,
+        12
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!La1HDKR2jm9BOpqG.yMLRfyONgtiGcGSZ"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!tables!La1HDKR2jm9BOpqG"
+}

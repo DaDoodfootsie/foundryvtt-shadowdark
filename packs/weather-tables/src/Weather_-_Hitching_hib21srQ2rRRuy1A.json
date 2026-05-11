@@ -1,0 +1,315 @@
+{
+  "_id": "hib21srQ2rRRuy1A",
+  "description": "Roll 2d6 daily to determine prevailing weather conditions in Dolmenwood.",
+  "displayRoll": true,
+  "flags": {},
+  "folder": null,
+  "formula": "2d6",
+  "img": "icons/svg/d6-grey.svg",
+  "name": "Weather \u2014 Hitching",
+  "replacement": true,
+  "results": [
+    {
+      "_id": "hDbldXYoK4rQkOKt",
+      "description": "Torrential rain<br><b>Effect:</b> Poor Visibility: Encounter distance is halved. Chance of getting lost increased by 1-in-6. <b>Effect:</b> Wet Conditions: Building a campfire is difficult.",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        2,
+        2
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!hib21srQ2rRRuy1A.hDbldXYoK4rQkOKt"
+    },
+    {
+      "_id": "aiR6jp61sgsKVDbB",
+      "description": "Clear, fresh dew<br><b>Effect:</b> Wet Conditions: Building a campfire is difficult.",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        3,
+        3
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!hib21srQ2rRRuy1A.aiR6jp61sgsKVDbB"
+    },
+    {
+      "_id": "1VVxzIydI3X1ucz1",
+      "description": "Sleepy, purple mist<br><b>Effect:</b> Poor Visibility: Encounter distance is halved. Chance of getting lost increased by 1-in-6.",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        4,
+        4
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!hib21srQ2rRRuy1A.1VVxzIydI3X1ucz1"
+    },
+    {
+      "_id": "2zl3hJd5toPhLjHb",
+      "description": "Interminable drizzle<br><b>Effect:</b> Wet Conditions: Building a campfire is difficult.",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        5,
+        5
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!hib21srQ2rRRuy1A.2zl3hJd5toPhLjHb"
+    },
+    {
+      "_id": "yJHsP5edvFtw5ZHq",
+      "description": "Balmy mist<br><b>Effect:</b> Poor Visibility: Encounter distance is halved. Chance of getting lost increased by 1-in-6.",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        6,
+        6
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!hib21srQ2rRRuy1A.yJHsP5edvFtw5ZHq"
+    },
+    {
+      "_id": "z3k9OJ4Fnpzbngeq",
+      "description": "Thick fog, hot<br><b>Effect:</b> Poor Visibility: Encounter distance is halved. Chance of getting lost increased by 1-in-6.",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        7,
+        7
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!hib21srQ2rRRuy1A.z3k9OJ4Fnpzbngeq"
+    },
+    {
+      "_id": "TtnSOYuzb5ziQiZa",
+      "description": "Misty, seeping damp<br><b>Effect:</b> Poor Visibility: Encounter distance is halved. Chance of getting lost increased by 1-in-6. <b>Effect:</b> Wet Conditions: Building a campfire is difficult.",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        8,
+        8
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!hib21srQ2rRRuy1A.TtnSOYuzb5ziQiZa"
+    },
+    {
+      "_id": "jDDEzZe2OllwZ1rP",
+      "description": "Hazy fog, dripping<br><b>Effect:</b> Poor Visibility: Encounter distance is halved. Chance of getting lost increased by 1-in-6. <b>Effect:</b> Wet Conditions: Building a campfire is difficult.",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        9,
+        9
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!hib21srQ2rRRuy1A.jDDEzZe2OllwZ1rP"
+    },
+    {
+      "_id": "uLQb1B6wj4bNZDbU",
+      "description": "Sticky dew drips<br><b>Effect:</b> Wet Conditions: Building a campfire is difficult.",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        10,
+        10
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!hib21srQ2rRRuy1A.uLQb1B6wj4bNZDbU"
+    },
+    {
+      "_id": "gSEV1eKwJDyhb2es",
+      "description": "Gloomy, shadows drip",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        11,
+        11
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!hib21srQ2rRRuy1A.gSEV1eKwJDyhb2es"
+    },
+    {
+      "_id": "FpYLpj3RRkiiJQYi",
+      "description": "Befuddling green fog<br><b>Effect:</b> Poor Visibility: Encounter distance is halved. Chance of getting lost increased by 1-in-6.",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        12,
+        12
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!hib21srQ2rRRuy1A.FpYLpj3RRkiiJQYi"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!tables!hib21srQ2rRRuy1A"
+}

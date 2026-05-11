@@ -1,0 +1,315 @@
+{
+  "_id": "thgl4TWjEAg3aEtL",
+  "description": "Roll 2d6 daily to determine prevailing weather conditions in Dolmenwood.",
+  "displayRoll": true,
+  "flags": {},
+  "folder": null,
+  "formula": "2d6",
+  "img": "icons/svg/d6-grey.svg",
+  "name": "Weather \u2014 Autumn",
+  "replacement": true,
+  "results": [
+    {
+      "_id": "UlilIpOJj8epm2z0",
+      "description": "Torrential rain<br><b>Effect:</b> Poor Visibility: Encounter distance is halved. Chance of getting lost increased by 1-in-6. <b>Effect:</b> Wet Conditions: Building a campfire is difficult.",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        2,
+        2
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!thgl4TWjEAg3aEtL.UlilIpOJj8epm2z0"
+    },
+    {
+      "_id": "IXVnr8UeXixkA5Kc",
+      "description": "Rolling fog<br><b>Effect:</b> Poor Visibility: Encounter distance is halved. Chance of getting lost increased by 1-in-6.",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        3,
+        3
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!thgl4TWjEAg3aEtL.IXVnr8UeXixkA5Kc"
+    },
+    {
+      "_id": "92rJSR9rwpU2PRhQ",
+      "description": "Driving rain<br><b>Effect:</b> Poor Visibility: Encounter distance is halved. Chance of getting lost increased by 1-in-6. <b>Effect:</b> Wet Conditions: Building a campfire is difficult.",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        4,
+        4
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!thgl4TWjEAg3aEtL.92rJSR9rwpU2PRhQ"
+    },
+    {
+      "_id": "SWCtqSflqLI7ZO1k",
+      "description": "Bracing wind",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        5,
+        5
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!thgl4TWjEAg3aEtL.SWCtqSflqLI7ZO1k"
+    },
+    {
+      "_id": "9rP1G4M7DhEFn4Dj",
+      "description": "Balmy, clement",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        6,
+        6
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!thgl4TWjEAg3aEtL.9rP1G4M7DhEFn4Dj"
+    },
+    {
+      "_id": "WJu2KSfNs5UMGCcL",
+      "description": "Clear, chilly",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        7,
+        7
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!thgl4TWjEAg3aEtL.WJu2KSfNs5UMGCcL"
+    },
+    {
+      "_id": "cNMN4QoSKEb3fqmA",
+      "description": "Drizzle, damp<br><b>Effect:</b> Wet Conditions: Building a campfire is difficult.",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        8,
+        8
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!thgl4TWjEAg3aEtL.cNMN4QoSKEb3fqmA"
+    },
+    {
+      "_id": "NQ9YbO8L7jGdQSyP",
+      "description": "Cloudy, misty<br><b>Effect:</b> Poor Visibility: Encounter distance is halved. Chance of getting lost increased by 1-in-6.",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        9,
+        9
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!thgl4TWjEAg3aEtL.NQ9YbO8L7jGdQSyP"
+    },
+    {
+      "_id": "zyoJRG4tZsQlsRll",
+      "description": "Brooding clouds",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        10,
+        10
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!thgl4TWjEAg3aEtL.zyoJRG4tZsQlsRll"
+    },
+    {
+      "_id": "bWGItBhWspqyyAKz",
+      "description": "Frosty, chill",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        11,
+        11
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!thgl4TWjEAg3aEtL.bWGItBhWspqyyAKz"
+    },
+    {
+      "_id": "f3oqwF670TwB0hoh",
+      "description": "Icy, gentle snow<br><b>Effect:</b> Wet Conditions: Building a campfire is difficult.",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        12,
+        12
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!thgl4TWjEAg3aEtL.f3oqwF670TwB0hoh"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!tables!thgl4TWjEAg3aEtL"
+}

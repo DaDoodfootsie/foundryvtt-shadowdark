@@ -1,0 +1,315 @@
+{
+  "_id": "05Z0ExEov86Jp7a6",
+  "description": "Roll 2d6 daily to determine prevailing weather conditions in Dolmenwood.",
+  "displayRoll": true,
+  "flags": {},
+  "folder": null,
+  "formula": "2d6",
+  "img": "icons/svg/d6-grey.svg",
+  "name": "Weather \u2014 Winter",
+  "replacement": true,
+  "results": [
+    {
+      "_id": "q4XSCqyHmvzUMYqv",
+      "description": "Deep freeze, hoarfrost",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        2,
+        2
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!05Z0ExEov86Jp7a6.q4XSCqyHmvzUMYqv"
+    },
+    {
+      "_id": "d87IlRim5DXhrzJP",
+      "description": "Snow storm<br><b>Effect:</b> Travel Impeded: The party's daily Travel Points are reduced by 2. <b>Effect:</b> Poor Visibility: Encounter distance is halved. Chance of getting lost increased by 1-in-6. <b>Effect:</b> Wet Conditions: Building a campfire is difficult.",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        3,
+        3
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!05Z0ExEov86Jp7a6.d87IlRim5DXhrzJP"
+    },
+    {
+      "_id": "wfvwynpYMJnPfpUQ",
+      "description": "Relentless wind",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        4,
+        4
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!05Z0ExEov86Jp7a6.wfvwynpYMJnPfpUQ"
+    },
+    {
+      "_id": "QWBIOZv7HVtQ4Lwp",
+      "description": "Bitter, silent",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        5,
+        5
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!05Z0ExEov86Jp7a6.QWBIOZv7HVtQ4Lwp"
+    },
+    {
+      "_id": "UcyFM6oJ25350P6c",
+      "description": "Frigid, icy",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        6,
+        6
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!05Z0ExEov86Jp7a6.UcyFM6oJ25350P6c"
+    },
+    {
+      "_id": "r65O9uiWvj9VDyiI",
+      "description": "Clear, cold",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        7,
+        7
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!05Z0ExEov86Jp7a6.r65O9uiWvj9VDyiI"
+    },
+    {
+      "_id": "l7l8cwO6M7K0FLgm",
+      "description": "Freezing rain<br><b>Effect:</b> Poor Visibility: Encounter distance is halved. Chance of getting lost increased by 1-in-6. <b>Effect:</b> Wet Conditions: Building a campfire is difficult.",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        8,
+        8
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!05Z0ExEov86Jp7a6.l7l8cwO6M7K0FLgm"
+    },
+    {
+      "_id": "m8YhjF4Yz3Qh9HCc",
+      "description": "Cold wind, gloomy",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        9,
+        9
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!05Z0ExEov86Jp7a6.m8YhjF4Yz3Qh9HCc"
+    },
+    {
+      "_id": "N9w6sBfW0cxP8Ovl",
+      "description": "Frigid mist<br><b>Effect:</b> Poor Visibility: Encounter distance is halved. Chance of getting lost increased by 1-in-6.",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        10,
+        10
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!05Z0ExEov86Jp7a6.N9w6sBfW0cxP8Ovl"
+    },
+    {
+      "_id": "zimdovw6rrwSmQTU",
+      "description": "Icy, steady snow<br><b>Effect:</b> Poor Visibility: Encounter distance is halved. Chance of getting lost increased by 1-in-6. <b>Effect:</b> Wet Conditions: Building a campfire is difficult.",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        11,
+        11
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!05Z0ExEov86Jp7a6.zimdovw6rrwSmQTU"
+    },
+    {
+      "_id": "7P5x67PacKbqZ6nU",
+      "description": "Relentless blizzard<br><b>Effect:</b> Travel Impeded: The party's daily Travel Points are reduced by 2. <b>Effect:</b> Poor Visibility: Encounter distance is halved. Chance of getting lost increased by 1-in-6. <b>Effect:</b> Wet Conditions: Building a campfire is difficult.",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d6-grey.svg",
+      "name": "",
+      "range": [
+        12,
+        12
+      ],
+      "type": "text",
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!tables.results!05Z0ExEov86Jp7a6.7P5x67PacKbqZ6nU"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!tables!05Z0ExEov86Jp7a6"
+}
