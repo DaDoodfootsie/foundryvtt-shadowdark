@@ -1,0 +1,154 @@
+{
+  "_id": "15a74823f80f4871",
+  "name": "Weather \u2014 Vague",
+  "img": "icons/svg/d6-grey.svg",
+  "description": "Dolmenwood weather table. Roll 2d6 daily to determine prevailing conditions.",
+  "results": [
+    {
+      "_id": "1b659086ac714dae",
+      "type": 0,
+      "text": "Hoarfrost, freezing fog<br><b>Effect:</b> Poor Visibility",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "8a29bbb8469b43d0",
+      "type": 0,
+      "text": "Steady snow, icy mist<br><b>Effect:</b> Poor Visibility | <b>Effect:</b> Wet Conditions",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "55ee5be6810b468b",
+      "type": 0,
+      "text": "Low mist, writhing soil",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "0343460fb4a74630",
+      "type": 0,
+      "text": "Sickly, yellow mist<br><b>Effect:</b> Poor Visibility",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "6189793d405646a1",
+      "type": 0,
+      "text": "Thick, rolling fog<br><b>Effect:</b> Poor Visibility",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "f507a22c1d534c9b",
+      "type": 0,
+      "text": "Freezing fog<br><b>Effect:</b> Poor Visibility",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "469262b278a343a5",
+      "type": 0,
+      "text": "Chill mist, winds wail<br><b>Effect:</b> Poor Visibility",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "605c0d0bebe94245",
+      "type": 0,
+      "text": "Icy mist, eerie howling<br><b>Effect:</b> Poor Visibility",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "363522fa097943f5",
+      "type": 0,
+      "text": "Violet mist rises<br><b>Effect:</b> Poor Visibility",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "1b4d8ccb7e934e31",
+      "type": 0,
+      "text": "Blizzard, earth tremors<br><b>Effect:</b> Travel Impeded | <b>Effect:</b> Poor Visibility | <b>Effect:</b> Wet Conditions",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "b6112e5d4ec64444",
+      "type": 0,
+      "text": "Blizzard, dense fog<br><b>Effect:</b> Travel Impeded | <b>Effect:</b> Poor Visibility | <b>Effect:</b> Wet Conditions",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowdark",
+    "systemVersion": "4.0.3",
+    "coreVersion": "13",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  }
+}

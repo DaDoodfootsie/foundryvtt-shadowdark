@@ -8,6 +8,8 @@ import registerHandlebarsHelpers from "./src/handlebars.mjs";
 import registerSystemSettings from "./src/settings.mjs";
 import registerTextEditorEnrichers from "./src/enrichers.mjs";
 import SHADOWDARK from "./src/config.mjs";
+import { DOLMENWOOD } from "./src/config.mjs";
+import { initCalendarWidget, toggleWidget, handleCalendarSocket } from "./src/calendar/calendar-widget.mjs";
 import ShadowdarkMacro from "./src/macro.mjs";
 import UtilitySD from "./src/utils/UtilitySD.mjs";
 
@@ -69,6 +71,7 @@ Hooks.once("init", () => {
 	};
 
 	CONFIG.SHADOWDARK = SHADOWDARK;
+	CONFIG.DOLMENWOOD = DOLMENWOOD;
 	CONFIG.Actor.documentClass = documents.ActorSD;
 	CONFIG.ActiveEffect.documentClass = documents.ActiveEffectSD;
 	CONFIG.Item.documentClass = documents.ItemSD;
@@ -162,6 +165,49 @@ Hooks.on("ready", async () => {
 	chat.messages.welcomeMessage();
 
 	UtilitySD.showNewReleaseNotes();
+
+	// ---------------------------------------------------------------------------
+	// Dolmenwood Calendar
+	// ---------------------------------------------------------------------------
+
+	// Register calendar settings
+	game.settings.register("shadowdark", "showCalendar", {
+		name: "DOLMEN.Calendar.SettingName",
+		hint: "DOLMEN.Calendar.SettingHint",
+		scope: "world",
+		config: true,
+		type: Boolean,
+		default: true,
+		onChange: toggleWidget,
+	});
+
+	game.settings.register("shadowdark", "autoWeather", {
+		name: "DOLMEN.Calendar.Weather.AutoSettingName",
+		hint: "DOLMEN.Calendar.Weather.AutoSettingHint",
+		scope: "world",
+		config: true,
+		type: Boolean,
+		default: false,
+	});
+
+	game.settings.register("shadowdark", "activeUnseason", {
+		scope: "world", config: false, type: String, default: "",
+	});
+
+	game.settings.register("shadowdark", "currentWeather", {
+		scope: "world", config: false, type: Object,
+		default: { text: "", effects: "", roll: 0 },
+	});
+
+	game.settings.register("shadowdark", "calendarNotes", {
+		scope: "world", config: false, type: Object, default: {},
+	});
+
+	// Handle calendar socket events (notes from non-GM players)
+	game.socket.on("system.shadowdark", handleCalendarSocket);
+
+	// Initialise the calendar widget
+	initCalendarWidget();
 
 	shadowdark.log("Game Ready");
 });

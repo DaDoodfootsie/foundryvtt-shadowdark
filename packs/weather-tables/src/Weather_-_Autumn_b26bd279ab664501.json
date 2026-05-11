@@ -1,0 +1,154 @@
+{
+  "_id": "b26bd279ab664501",
+  "name": "Weather \u2014 Autumn",
+  "img": "icons/svg/d6-grey.svg",
+  "description": "Dolmenwood weather table. Roll 2d6 daily to determine prevailing conditions.",
+  "results": [
+    {
+      "_id": "21085cdcdd2e4807",
+      "type": 0,
+      "text": "Torrential rain<br><b>Effect:</b> Poor Visibility | <b>Effect:</b> Wet Conditions",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "7a82427dd0e341e8",
+      "type": 0,
+      "text": "Rolling fog<br><b>Effect:</b> Poor Visibility",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "e667d8f0e1a34048",
+      "type": 0,
+      "text": "Driving rain<br><b>Effect:</b> Poor Visibility | <b>Effect:</b> Wet Conditions",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "a7bb66b4ef4d4455",
+      "type": 0,
+      "text": "Bracing wind",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "0bb37362c1b84653",
+      "type": 0,
+      "text": "Balmy, clement",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "e12bfb59f88c4bf5",
+      "type": 0,
+      "text": "Clear, chilly",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "f39a92596e834291",
+      "type": 0,
+      "text": "Drizzle, damp<br><b>Effect:</b> Wet Conditions",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "e55370dcd46e4ccc",
+      "type": 0,
+      "text": "Cloudy, misty<br><b>Effect:</b> Poor Visibility",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "8966954144b84b0d",
+      "type": 0,
+      "text": "Brooding clouds",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "80e0ec094ec24c26",
+      "type": 0,
+      "text": "Frosty, chill",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "69379f9e88114846",
+      "type": 0,
+      "text": "Icy, gentle snow<br><b>Effect:</b> Wet Conditions",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowdark",
+    "systemVersion": "4.0.3",
+    "coreVersion": "13",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  }
+}

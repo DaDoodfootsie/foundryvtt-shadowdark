@@ -1,0 +1,154 @@
+{
+  "_id": "1c607597199c438f",
+  "name": "Weather \u2014 Hitching",
+  "img": "icons/svg/d6-grey.svg",
+  "description": "Dolmenwood weather table. Roll 2d6 daily to determine prevailing conditions.",
+  "results": [
+    {
+      "_id": "4e00fb14ca014dab",
+      "type": 0,
+      "text": "Torrential rain<br><b>Effect:</b> Poor Visibility | <b>Effect:</b> Wet Conditions",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "87b81419801b435b",
+      "type": 0,
+      "text": "Clear, fresh dew<br><b>Effect:</b> Wet Conditions",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "d22aa3bd0c274dd2",
+      "type": 0,
+      "text": "Sleepy, purple mist<br><b>Effect:</b> Poor Visibility",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "1d287092949e4816",
+      "type": 0,
+      "text": "Interminable drizzle<br><b>Effect:</b> Wet Conditions",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "c5ef93df9b9845b4",
+      "type": 0,
+      "text": "Balmy mist<br><b>Effect:</b> Poor Visibility",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "1e45e21d7fb44219",
+      "type": 0,
+      "text": "Thick fog, hot<br><b>Effect:</b> Poor Visibility",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "e1323bc3c51d4e4e",
+      "type": 0,
+      "text": "Misty, seeping damp<br><b>Effect:</b> Poor Visibility | <b>Effect:</b> Wet Conditions",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "838e604dff5641f7",
+      "type": 0,
+      "text": "Hazy fog, dripping<br><b>Effect:</b> Poor Visibility | <b>Effect:</b> Wet Conditions",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "7b85f6c2d79746fc",
+      "type": 0,
+      "text": "Sticky dew drips<br><b>Effect:</b> Wet Conditions",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "ffb4269732704847",
+      "type": 0,
+      "text": "Gloomy, shadows drip",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "45607f55c75c42a6",
+      "type": 0,
+      "text": "Befuddling green fog<br><b>Effect:</b> Poor Visibility",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowdark",
+    "systemVersion": "4.0.3",
+    "coreVersion": "13",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  }
+}

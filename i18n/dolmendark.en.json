@@ -1,49 +1,156 @@
 {
-	"DOLMENDARK": {
-		"tab": {
-			"fairy_magic": "Fairy Magic"
-		},
-		"fairy": {
-			"glamour": "Glamour",
-			"glamours": "Glamours",
-			"rune": "Rune",
-			"runes": "Runes",
-			"no_glamours": "No glamours known.",
-			"no_runes": "No runes granted.",
-			"use_glamour": "Use Glamour",
-			"use_rune": "Invoke Rune"
-		},
-		"glamour": {
-			"usage": {
-				"unlimited": "Unlimited",
-				"daily": "Once per day",
-				"hourly": "Once per hour",
-				"per_subject": "Once per day per subject"
-			},
-			"usage_type": "Usage",
-			"used": "Used today",
-			"max_label": "Glamours Max"
-		},
-		"rune": {
-			"magnitude": {
-				"label": "Magnitude",
-				"lesser": "Lesser",
-				"greater": "Greater",
-				"mighty": "Mighty"
-			},
-			"roll_granted": "Roll Rune Granted",
-			"granted_roll_flavor": "Rune Granted — consulting the fairy nobles..."
-		},
-		"item": {
-			"range": "Range",
-			"duration": "Duration"
-		},
-		"error": {
-			"glamour_not_found": "Glamour not found on this actor.",
-			"glamour_unavailable": "{name} has already been used and is not yet available.",
-			"rune_not_found": "Rune not found on this actor.",
-			"rune_unavailable": "{name} cannot be used again yet.",
-			"rune_once_ever": "{name} has already been used — this rune may only be invoked once ever."
-		}
-	}
+  "DOLMENDARK": {
+    "tab": {
+      "fairy_magic": "Fairy Magic"
+    },
+    "fairy": {
+      "glamour": "Glamour",
+      "glamours": "Glamours",
+      "rune": "Rune",
+      "runes": "Runes",
+      "no_glamours": "No glamours known.",
+      "no_runes": "No runes granted.",
+      "use_glamour": "Use Glamour",
+      "use_rune": "Invoke Rune"
+    },
+    "glamour": {
+      "usage": {
+        "unlimited": "Unlimited",
+        "daily": "Once per day",
+        "hourly": "Once per hour",
+        "per_subject": "Once per day per subject"
+      },
+      "usage_type": "Usage",
+      "used": "Used today",
+      "max_label": "Glamours Max"
+    },
+    "rune": {
+      "magnitude": {
+        "label": "Magnitude",
+        "lesser": "Lesser",
+        "greater": "Greater",
+        "mighty": "Mighty"
+      },
+      "roll_granted": "Roll Rune Granted",
+      "granted_roll_flavor": "Rune Granted — consulting the fairy nobles..."
+    },
+    "item": {
+      "range": "Range",
+      "duration": "Duration"
+    },
+    "error": {
+      "glamour_not_found": "Glamour not found on this actor.",
+      "glamour_unavailable": "{name} has already been used and is not yet available.",
+      "rune_not_found": "Rune not found on this actor.",
+      "rune_unavailable": "{name} cannot be used again yet.",
+      "rune_once_ever": "{name} has already been used — this rune may only be invoked once ever."
+    }
+  },
+  "DOLMEN": {
+    "Cancel": "Cancel",
+    "Close": "Close",
+    "Calendar": {
+      "SettingName": "Show Calendar Widget",
+      "SettingHint": "Display a calendar and time widget above the macro hotbar.",
+      "Year": "Year",
+      "Month": "Month",
+      "Day": "Day",
+      "DateFormat": "{day} of {month}, Year {year}",
+      "Hour": "Hour",
+      "Minute": "Minute",
+      "WeekDays": {
+        "colly": "Colly",
+        "chime": "Chime",
+        "hayme": "Hayme",
+        "moot": "Moot",
+        "frisk": "Frisk",
+        "eggfast": "Eggfast",
+        "sunning": "Sunning"
+      },
+      "WeekDaysShort": {
+        "colly": "Col",
+        "chime": "Chi",
+        "hayme": "Hay",
+        "moot": "Moo",
+        "frisk": "Fri",
+        "eggfast": "Egg",
+        "sunning": "Sun"
+      },
+      "Seasons": {
+        "winter": "Winter",
+        "spring": "Spring",
+        "summer": "Summer",
+        "autumn": "Autumn"
+      },
+      "SetDateTitle": "Set Date",
+      "SetTimeTitle": "Set Time",
+      "SetTimeConfirm": "Set",
+      "Advance10Min": "Advance 10 minutes",
+      "Advance1Hr": "Advance 1 hour",
+      "Advance8Hr": "Advance 8 hours (rest)",
+      "MultipleHolidays": "Multiple (hover to see)",
+      "Unseasons": {
+        "hitching": "Hitching",
+        "vague": "Vague",
+        "colliggwyld": "Colliggwyld",
+        "chame": "Chame"
+      },
+      "UnseasonsNone": "None (normal season)",
+      "SetUnseasonTitle": "Set Unseason",
+      "Weather": {
+        "NoWeather": "—",
+        "RollWeather": "Roll Weather (2d6)",
+        "Impeded": "Travel Impeded: Travel Points reduced by 2",
+        "Visibility": "Poor Visibility: encounter distance halved, +1-in-6 lost",
+        "Wet": "Wet Conditions: building a campfire is difficult",
+        "ChatTitle": "Weather",
+        "AutoSettingName": "Auto Weather",
+        "AutoSettingHint": "Automatically roll for weather each time the day changes."
+      },
+      "Notes": {
+        "Title": "Calendar Notes",
+        "ButtonTitle": "Calendar Notes",
+        "AddNote": "Add Note",
+        "DeleteNote": "Delete Note",
+        "GmOnly": "GM Only",
+        "Everyone": "Everyone",
+        "Placeholder": "Enter note...",
+        "NoNotes": "No notes for this day.",
+        "Notification": "Calendar Note"
+      }
+    },
+    "Months": {
+      "grimvold": "Grimvold",
+      "lymewald": "Lymewald",
+      "haggryme": "Haggryme",
+      "symswald": "Symswald",
+      "harchment": "Harchment",
+      "iggwyld": "Iggwyld",
+      "chysting": "Chysting",
+      "lillipythe": "Lillipythe",
+      "haelhold": "Haelhold",
+      "reedwryme": "Reedwryme",
+      "obthryme": "Obthryme",
+      "braghold": "Braghold"
+    },
+    "MoonNames": {
+      "grinning": "Grinning",
+      "dead": "Dead",
+      "beast": "Beast",
+      "squamous": "Squamous",
+      "knights": "Knight's",
+      "rotting": "Rotting",
+      "maidens": "Maiden's",
+      "witch": "Witch's",
+      "robbers": "Robber's",
+      "goat": "Goat",
+      "narrow": "Narrow",
+      "black": "Black"
+    },
+    "MoonPhases": {
+      "waning": "Waning",
+      "full": "Full",
+      "waxing": "Waxing"
+    }
+  }
 }

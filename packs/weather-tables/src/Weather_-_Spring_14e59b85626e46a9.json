@@ -1,0 +1,154 @@
+{
+  "_id": "14e59b85626e46a9",
+  "name": "Weather \u2014 Spring",
+  "img": "icons/svg/d6-grey.svg",
+  "description": "Dolmenwood weather table. Roll 2d6 daily to determine prevailing conditions.",
+  "results": [
+    {
+      "_id": "ba1fcd77927c4c99",
+      "type": 0,
+      "text": "Cold, gentle snow<br><b>Effect:</b> Wet Conditions",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "f040dd71537f46a0",
+      "type": 0,
+      "text": "Chilly, damp<br><b>Effect:</b> Wet Conditions",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "2a84b794c13d4bdd",
+      "type": 0,
+      "text": "Windy, cloudy",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "59cb4a731e6244f7",
+      "type": 0,
+      "text": "Brisk, clear",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "70d074e1ad0240c5",
+      "type": 0,
+      "text": "Clement, cheery",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "7f47291ee4a34cb6",
+      "type": 0,
+      "text": "Warm, sunny",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "762add3b28d247d8",
+      "type": 0,
+      "text": "Bright, fresh",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "baa443fec70342c4",
+      "type": 0,
+      "text": "Blustery, drizzle<br><b>Effect:</b> Wet Conditions",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "5db5f4190d4541a9",
+      "type": 0,
+      "text": "Pouring rain<br><b>Effect:</b> Poor Visibility | <b>Effect:</b> Wet Conditions",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "695773c194a745ab",
+      "type": 0,
+      "text": "Gloomy, cool",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "c6e3947f390d4292",
+      "type": 0,
+      "text": "Chill mist<br><b>Effect:</b> Poor Visibility",
+      "img": "icons/svg/d6-grey.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowdark",
+    "systemVersion": "4.0.3",
+    "coreVersion": "13",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  }
+}
