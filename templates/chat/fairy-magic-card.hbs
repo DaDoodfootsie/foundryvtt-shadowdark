@@ -1,0 +1,60 @@
+<div
+	class="shadowdark chat-card item-card fairy-magic-card"
+	data-actor-id="{{actor.id}}"
+	data-item-id="{{item.id}}"
+>
+	<header class="card-header flexrow">
+		<img src="{{item.img}}" data-tooltip="{{item.name}}"/>
+		<h3 class="item-name">{{item.name}}</h3>
+	</header>
+
+	<div class="card-content">
+		{{{item.system.description}}}
+	</div>
+
+	<footer class="card-footer">
+		<ul class="tags">
+			{{#if isGlamour}}
+				<li class="tag tag_primary tag_small">
+					{{localize "SHADOWDARK.fairy.glamour"}}
+				</li>
+				{{#if item.system.range}}
+					<li class="tag tag_secondary tag_small">
+						{{localize "SHADOWDARK.item.spell_range"}}:
+						{{item.system.range}}
+					</li>
+				{{/if}}
+				{{#if item.system.duration}}
+					<li class="tag tag_secondary tag_small">
+						{{localize "SHADOWDARK.item.spell_duration"}}:
+						{{item.system.duration}}
+					</li>
+				{{/if}}
+				<li class="tag tag_secondary tag_small">
+					{{item.system.usageLabel}}
+				</li>
+			{{/if}}
+
+			{{#if isRune}}
+				<li class="tag tag_primary tag_small">
+					{{localize "SHADOWDARK.fairy.rune"}}
+				</li>
+				<li class="tag tag_secondary tag_small">
+					{{magnitude}}
+				</li>
+				{{#if item.system.range}}
+					<li class="tag tag_secondary tag_small">
+						{{localize "SHADOWDARK.item.spell_range"}}:
+						{{item.system.range}}
+					</li>
+				{{/if}}
+				{{#if item.system.duration}}
+					<li class="tag tag_secondary tag_small">
+						{{localize "SHADOWDARK.item.spell_duration"}}:
+						{{item.system.duration}}
+					</li>
+				{{/if}}
+			{{/if}}
+		</ul>
+	</footer>
+</div>

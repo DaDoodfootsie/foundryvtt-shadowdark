@@ -1,0 +1,26 @@
+<div class="flexrow" style="flex: 1; align-items: stretch; gap: 10px;">
+	<div style="width: 250px; flex: none; padding: 4px 0;">
+		<h1 style="font-family: var(--font-header); font-size: 2.5em; text-align: center;">{{localize "SHADOWDARK.apps.monster-importer.header"}}</h1>
+		<hr />
+		<p>{{localize "SHADOWDARK.apps.monster-importer.instruction1"}}</p>
+		<hr />
+		<p>{{localize "SHADOWDARK.apps.monster-importer.instruction2a"}}</p>
+		<blockquote style="font-size: 0.85em; opacity: 0.8;">
+			{{localize "SHADOWDARK.apps.monster-importer.instruction2b"}}<br>
+			<i>{{localize "SHADOWDARK.apps.monster-importer.instruction2c"}}</i><br>
+			{{localize "SHADOWDARK.apps.monster-importer.instruction2d"}}<br>
+			{{localize "SHADOWDARK.apps.monster-importer.instruction2e"}} 1<br>
+			<br>
+			{{localize "SHADOWDARK.apps.monster-importer.instruction2e"}} 2<br>
+			<br>
+			{{localize "SHADOWDARK.apps.monster-importer.instruction2e"}} N
+		</blockquote>
+		<hr />
+		<p>{{localize "SHADOWDARK.apps.monster-importer.instruction3"}}</p>
+		<button type="submit">{{localize "SHADOWDARK.apps.monster-importer.import_button"}}</button>
+	</div>
+	<div class="flex1" style="display: flex; flex-direction: column;">
+		<textarea name="monsterText" placeholder="{{localize "SHADOWDARK.apps.monster-importer.placeholder"}}" style="flex: 1; width: 100%; resize: none;"></textarea>
+		<ul class="import-errors" hidden></ul>
+	</div>
+</div>

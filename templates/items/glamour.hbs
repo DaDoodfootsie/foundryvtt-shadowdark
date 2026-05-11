@@ -1,0 +1,17 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+	{{> items/_partials/header }}
+
+	<nav class="SD-nav flex0" data-group="primary">
+		<a class="navigation-tab" data-tab="tab-details">
+			{{localize "SHADOWDARK.sheet.item.tab.details"}}
+		</a>
+		<a class="navigation-tab" data-tab="tab-description">
+			{{localize "SHADOWDARK.sheet.item.tab.description"}}
+		</a>
+	</nav>
+
+	<section class="SD-content-body flex1">
+		{{> items/glamour/details-tab }}
+		{{> items/_partials/description-tab }}
+	</section>
+</form>

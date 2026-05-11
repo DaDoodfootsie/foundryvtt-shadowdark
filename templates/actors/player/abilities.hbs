@@ -1,0 +1,16 @@
+<section class="tab tab-abilities" data-group="primary" data-tab="tab-abilities">
+	<div class="abilities-grid">
+		<div class="grid-2-columns">
+			{{> actors/player/abilities/hp }}
+			{{> actors/player/abilities/ac }}
+			{{> actors/player/abilities/luck }}
+			{{> actors/player/abilities/stats }}
+		</div>
+		<div class="grid-1-columns">
+			{{> actors/player/abilities/attacks }}
+			{{#if classAbilities}}
+				{{> actors/player/abilities/class }}
+			{{/if}}
+		</div>
+	</div>
+</section>

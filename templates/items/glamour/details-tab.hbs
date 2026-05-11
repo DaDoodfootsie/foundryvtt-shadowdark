@@ -1,0 +1,30 @@
+<section class="tab tab-details" data-group="primary" data-tab="tab-details">
+	<div class="dolmendark-item-fields">
+
+		<div class="form-group">
+			<label>{{localize "DOLMENDARK.item.range"}}</label>
+			<input type="text" name="system.range" value="{{system.range}}" placeholder="e.g. Near, Self, Close" />
+		</div>
+
+		<div class="form-group">
+			<label>{{localize "DOLMENDARK.item.duration"}}</label>
+			<input type="text" name="system.duration" value="{{system.duration}}" placeholder="e.g. Instant, 1d4 Rounds, Focus" />
+		</div>
+
+		<div class="form-group">
+			<label>{{localize "DOLMENDARK.glamour.usage_type"}}</label>
+			<select name="system.usageType">
+				<option value="unlimited" {{#if (eq system.usageType "unlimited")}}selected{{/if}}>{{localize "DOLMENDARK.glamour.usage.unlimited"}}</option>
+				<option value="daily"     {{#if (eq system.usageType "daily")}}selected{{/if}}>{{localize "DOLMENDARK.glamour.usage.daily"}}</option>
+				<option value="hourly"    {{#if (eq system.usageType "hourly")}}selected{{/if}}>{{localize "DOLMENDARK.glamour.usage.hourly"}}</option>
+				<option value="perSubject" {{#if (eq system.usageType "perSubject")}}selected{{/if}}>{{localize "DOLMENDARK.glamour.usage.per_subject"}}</option>
+			</select>
+		</div>
+
+		<div class="form-group">
+			<label>{{localize "DOLMENDARK.glamour.used"}}</label>
+			<input type="checkbox" name="system.used" {{#if system.used}}checked{{/if}} />
+		</div>
+
+	</div>
+</section>

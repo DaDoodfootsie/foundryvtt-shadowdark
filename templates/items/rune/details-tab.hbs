@@ -1,0 +1,24 @@
+<section class="tab tab-details" data-group="primary" data-tab="tab-details">
+	<div class="dolmendark-item-fields">
+
+		<div class="form-group">
+			<label>{{localize "DOLMENDARK.rune.magnitude.label"}}</label>
+			<select name="system.magnitude">
+				<option value="lesser"  {{#if (eq system.magnitude "lesser")}}selected{{/if}}>{{localize "DOLMENDARK.rune.magnitude.lesser"}}</option>
+				<option value="greater" {{#if (eq system.magnitude "greater")}}selected{{/if}}>{{localize "DOLMENDARK.rune.magnitude.greater"}}</option>
+				<option value="mighty"  {{#if (eq system.magnitude "mighty")}}selected{{/if}}>{{localize "DOLMENDARK.rune.magnitude.mighty"}}</option>
+			</select>
+		</div>
+
+		<div class="form-group">
+			<label>{{localize "DOLMENDARK.item.range"}}</label>
+			<input type="text" name="system.range" value="{{system.range}}" placeholder="e.g. Near, Self, Far" />
+		</div>
+
+		<div class="form-group">
+			<label>{{localize "DOLMENDARK.item.duration"}}</label>
+			<input type="text" name="system.duration" value="{{system.duration}}" placeholder="e.g. Instant, 5 Rounds" />
+		</div>
+
+	</div>
+</section>

@@ -1,0 +1,13 @@
+{{#> ui/sd-box
+	header-label=(localize "SHADOWDARK.item.properties.label")
+	header-class="light"
+}}
+	<div class="SD-grid">
+		{{> items/_partials/item-properties/ammunition }}
+		{{> items/_partials/item-properties/light-source }}
+		{{#ifCond isGM '||' isIdentified}}
+			{{> items/_partials/item-properties/magic-item }}
+		{{/ifCond}}
+		{{> items/_partials/item-properties/treasure }}
+	</div>
+{{/ui/sd-box}}

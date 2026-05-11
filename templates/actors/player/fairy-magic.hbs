@@ -1,0 +1,147 @@
+<section class="tab tab-fairy-magic" data-group="primary" data-tab="tab-fairy-magic">
+
+	{{!-- GLAMOURS --}}
+	{{#> ui/sd-hideable-section
+		sectionId=""
+		sectionTitle=(concat (localize "DOLMENDARK.fairy.glamours") " (" glamoursKnown " / " actor.system.fairyMagic.glamoursMax ")")
+	}}
+		{{#if glamours.length}}
+			<ol class="SD-list">
+				<li class="header">
+					<div class="item-name">{{localize "DOLMENDARK.fairy.glamour"}}</div>
+					<div class="duration">{{localize "DOLMENDARK.item.duration"}}</div>
+					<div class="range">{{localize "DOLMENDARK.item.range"}}</div>
+					<div class="actions"></div>
+				</li>
+				{{#each glamours}}
+					<li class="item" data-item-id="{{_id}}">
+						<div class="item-image" style="background-image: url({{img}})">
+							<i class="fas fa-comment fa-lg"></i>
+						</div>
+						<a class="item-name {{#unless system.isAvailable}}strike-through{{/unless}}" data-action="show-details">
+							{{name}}
+						</a>
+						<div class="duration">{{system.duration}}</div>
+						<div class="range">{{system.range}}</div>
+						<div class="actions">
+							<a
+								data-action="cast-glamour"
+								data-item-id="{{_id}}"
+								data-tooltip="{{localize 'DOLMENDARK.fairy.use_glamour'}}"
+								class="{{#unless system.isAvailable}}disabled{{/unless}}"
+							>
+								<i class="fa-solid fa-hand-sparkles"></i>
+							</a>
+						</div>
+					</li>
+				{{/each}}
+			</ol>
+		{{else}}
+			<p class="fairy-empty">{{localize "DOLMENDARK.fairy.no_glamours"}}</p>
+		{{/if}}
+	{{/ui/sd-hideable-section}}
+
+	{{!-- LESSER RUNES --}}
+	{{#> ui/sd-hideable-section
+		sectionId=""
+		sectionTitle=(concat (localize "DOLMENDARK.rune.magnitude.lesser") " " (localize "DOLMENDARK.fairy.runes"))
+	}}
+		{{#if lesserRunes.length}}
+			<ol class="SD-list">
+				<li class="header">
+					<div class="item-name">{{localize "DOLMENDARK.fairy.rune"}}</div>
+					<div class="duration">{{localize "DOLMENDARK.item.duration"}}</div>
+					<div class="range">{{localize "DOLMENDARK.item.range"}}</div>
+					<div class="actions"></div>
+				</li>
+				{{#each lesserRunes}}
+					<li class="item" data-item-id="{{_id}}">
+						<div class="item-image" style="background-image: url({{img}})">
+							<i class="fas fa-comment fa-lg"></i>
+						</div>
+						<a class="item-name" data-action="show-details">{{name}}</a>
+						<div class="duration">{{system.duration}}</div>
+						<div class="range">{{system.range}}</div>
+						<div class="actions">
+							<a data-action="use-rune" data-item-id="{{_id}}" data-tooltip="{{localize 'DOLMENDARK.fairy.use_rune'}}" class="{{#if (gte usage.used usage.max)}}disabled{{/if}}">
+								<i class="fa-solid fa-hand-sparkles"></i>
+							</a>
+						</div>
+					</li>
+				{{/each}}
+			</ol>
+		{{else}}
+			<p class="fairy-empty">{{localize "DOLMENDARK.fairy.no_runes"}}</p>
+		{{/if}}
+	{{/ui/sd-hideable-section}}
+
+	{{!-- GREATER RUNES --}}
+	{{#> ui/sd-hideable-section
+		sectionId=""
+		sectionTitle=(concat (localize "DOLMENDARK.rune.magnitude.greater") " " (localize "DOLMENDARK.fairy.runes"))
+	}}
+		{{#if greaterRunes.length}}
+			<ol class="SD-list">
+				<li class="header">
+					<div class="item-name">{{localize "DOLMENDARK.fairy.rune"}}</div>
+					<div class="duration">{{localize "DOLMENDARK.item.duration"}}</div>
+					<div class="range">{{localize "DOLMENDARK.item.range"}}</div>
+					<div class="actions"></div>
+				</li>
+				{{#each greaterRunes}}
+					<li class="item" data-item-id="{{_id}}">
+						<div class="item-image" style="background-image: url({{img}})">
+							<i class="fas fa-comment fa-lg"></i>
+						</div>
+						<a class="item-name" data-action="show-details">{{name}}</a>
+						<div class="duration">{{system.duration}}</div>
+						<div class="range">{{system.range}}</div>
+						<div class="actions">
+							<a data-action="use-rune" data-item-id="{{_id}}" data-tooltip="{{localize 'DOLMENDARK.fairy.use_rune'}}" class="{{#if (gte usage.used usage.max)}}disabled{{/if}}">
+								<i class="fa-solid fa-hand-sparkles"></i>
+							</a>
+						</div>
+					</li>
+				{{/each}}
+			</ol>
+		{{else}}
+			<p class="fairy-empty">{{localize "DOLMENDARK.fairy.no_runes"}}</p>
+		{{/if}}
+	{{/ui/sd-hideable-section}}
+
+	{{!-- MIGHTY RUNES --}}
+	{{#> ui/sd-hideable-section
+		sectionId=""
+		sectionTitle=(concat (localize "DOLMENDARK.rune.magnitude.mighty") " " (localize "DOLMENDARK.fairy.runes"))
+	}}
+		{{#if mightyRunes.length}}
+			<ol class="SD-list">
+				<li class="header">
+					<div class="item-name">{{localize "DOLMENDARK.fairy.rune"}}</div>
+					<div class="duration">{{localize "DOLMENDARK.item.duration"}}</div>
+					<div class="range">{{localize "DOLMENDARK.item.range"}}</div>
+					<div class="actions"></div>
+				</li>
+				{{#each mightyRunes}}
+					<li class="item" data-item-id="{{_id}}">
+						<div class="item-image" style="background-image: url({{img}})">
+							<i class="fas fa-comment fa-lg"></i>
+						</div>
+						<a class="item-name" data-action="show-details">{{name}}</a>
+						<div class="duration">{{system.duration}}</div>
+						<div class="range">{{system.range}}</div>
+						<div class="actions">
+							<a data-action="use-rune" data-item-id="{{_id}}" data-tooltip="{{localize 'DOLMENDARK.fairy.use_rune'}}" class="{{#if (gte usage.used usage.max)}}disabled{{/if}}">
+								<i class="fa-solid fa-hand-sparkles"></i>
+							</a>
+						</div>
+					</li>
+				{{/each}}
+			</ol>
+		{{else}}
+			<p class="fairy-empty">{{localize "DOLMENDARK.fairy.no_runes"}}</p>
+		{{/if}}
+	{{/ui/sd-hideable-section}}
+
+	<br>
+</section>

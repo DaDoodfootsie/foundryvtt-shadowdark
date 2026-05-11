@@ -1,0 +1,57 @@
+<section class="tab tab-details" data-group="primary" data-tab="tab-details">
+	<div class="grid-1-columns">
+		<div class="background-grid-a">
+			{{!-- First Row --}}
+			{{> actors/player/details/level }}
+			{{> actors/player/details/title }}
+			{{> actors/player/details/class }}
+
+			{{!-- Second Row --}}
+			{{> actors/player/details/xp }}
+			{{> actors/player/details/ancestry }}
+			{{> actors/player/details/background }}
+
+			{{> actors/player/details/renown }}
+			{{> actors/player/details/alignment }}
+			{{> actors/player/details/deity }}
+
+
+			{{#if classHasPatron}}
+				<div style="grid-column: span 2;">
+					{{> actors/player/details/languages }}
+				</div>
+				{{> actors/player/details/patron }}
+			{{else}}
+				<div style="grid-column: span 3;">
+				{{> actors/player/details/languages }}
+				</div>
+			{{/if}}
+		</div>
+
+		{{> actors/player/details/boons }}
+
+		{{!-- Fairy Magic Enable --}}
+		<div class="dolmendark-fairy-enable">
+			<label class="fairy-enable-label">
+				<i class="fas fa-sparkles"></i>
+				{{localize "DOLMENDARK.tab.fairy_magic"}}
+			</label>
+			<input
+				type="checkbox"
+				name="system.fairyMagic.enabled"
+				{{#if actor.system.fairyMagic.enabled}}checked{{/if}}
+			/>
+			{{#if actor.system.fairyMagic.enabled}}
+				<label>{{localize "DOLMENDARK.glamour.max_label"}}</label>
+				<input
+					type="number"
+					name="system.fairyMagic.glamoursMax"
+					value="{{actor.system.fairyMagic.glamoursMax}}"
+					min="0"
+					max="99"
+					style="width:44px;"
+				/>
+			{{/if}}
+		</div>
+	</div>
+</section>
