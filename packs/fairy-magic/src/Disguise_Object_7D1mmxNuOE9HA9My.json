@@ -1,0 +1,33 @@
+{
+  "_id": "7D1mmxNuOE9HA9My",
+  "name": "Disguise Object",
+  "type": "Glamour",
+  "img": "icons/magic/air/wind-stream-green.webp",
+  "system": {
+    "description": "<p>An object touched is made to appear as something else (of similar dimensions). The object remains disguised until touched by a creature other than you.</p><p>You may use this glamour to disguise only one object at a time.</p>",
+    "usageType": "unlimited",
+    "range": "Touch",
+    "duration": "Special",
+    "used": false,
+    "lastUsedTime": 0
+  },
+  "effects": [],
+  "folder": "tIYFOzUDOTvVZDZA",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!7D1mmxNuOE9HA9My"
+}

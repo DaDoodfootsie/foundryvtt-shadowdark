@@ -1,0 +1,33 @@
+{
+  "_id": "Wr7oSNSx5x9VQzaK",
+  "name": "Fool's Gold",
+  "type": "Glamour",
+  "img": "icons/magic/air/wind-stream-green.webp",
+  "system": {
+    "description": "<p>You can cause copper or silver coins to appear as gold to gullible mortals. Each mortal who views the glamoured coins may make a normal INT check to see the fairy trick for what it is.</p><p>You may use this glamour to disguise up to 20 coins per level once per day.</p>",
+    "usageType": "daily",
+    "range": "Coins touched",
+    "duration": "1d6 Rounds",
+    "used": false,
+    "lastUsedTime": 0
+  },
+  "effects": [],
+  "folder": "tIYFOzUDOTvVZDZA",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Wr7oSNSx5x9VQzaK"
+}

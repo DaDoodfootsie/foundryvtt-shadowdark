@@ -1,0 +1,33 @@
+{
+  "_id": "cMFeaHhEf2UDUICI",
+  "name": "Awe",
+  "type": "Glamour",
+  "img": "icons/magic/air/wind-stream-green.webp",
+  "system": {
+    "description": "<p>Your otherworldly presence is unnerving to mortals and animals. With a dramatic gesture, you cause a group of mortals or animals (or a mixed group) to make a Morale Check.</p><p>If the Morale Check fails, creatures of LV 2 or lower flee. You may use this glamour once per hour of real time.</p>",
+    "usageType": "hourly",
+    "range": "Near",
+    "duration": "Instant",
+    "used": false,
+    "lastUsedTime": 0
+  },
+  "effects": [],
+  "folder": "tIYFOzUDOTvVZDZA",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!cMFeaHhEf2UDUICI"
+}

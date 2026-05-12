@@ -1,0 +1,33 @@
+{
+  "_id": "zukoMI9SpbV4b9AB",
+  "name": "Silver Tongue",
+  "type": "Glamour",
+  "img": "icons/magic/air/wind-stream-green.webp",
+  "system": {
+    "description": "<p>You are able to communicate with any being, including mundane animals. This glamour may only be used to communicate in one language per day.</p>",
+    "usageType": "daily",
+    "range": "Self",
+    "duration": "1 Day",
+    "used": false,
+    "lastUsedTime": 0
+  },
+  "effects": [],
+  "folder": "tIYFOzUDOTvVZDZA",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!zukoMI9SpbV4b9AB"
+}

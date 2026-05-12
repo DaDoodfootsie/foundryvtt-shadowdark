@@ -1,0 +1,31 @@
+{
+  "_id": "bkeTFxFYErWXkesd",
+  "name": "Unravel Death",
+  "type": "Rune",
+  "img": "icons/magic/symbols/runes-star-red.svg",
+  "system": {
+    "description": "<p>A deceased mortal, demi-fey, or fairy whom you touch returns to life. The target must have been dead no longer than seven days. The creature returned to life is completely helpless until they get two weeks of bed rest.</p>",
+    "magnitude": "mighty",
+    "range": "Touch",
+    "duration": "Instant"
+  },
+  "effects": [],
+  "folder": "G6CQU67bNiV0Xhzx",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!bkeTFxFYErWXkesd"
+}

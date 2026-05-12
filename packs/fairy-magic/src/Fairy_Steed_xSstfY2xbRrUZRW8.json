@@ -1,0 +1,31 @@
+{
+  "_id": "xSstfY2xbRrUZRW8",
+  "name": "Fairy Steed",
+  "type": "Rune",
+  "img": "icons/magic/symbols/runes-star-purple.svg",
+  "system": {
+    "description": "<p>A dashing fairy-horse, who is fleet of foot and charming of wit, is summoned to serve you.</p>",
+    "magnitude": "greater",
+    "range": "Close",
+    "duration": "Until Dawn"
+  },
+  "effects": [],
+  "folder": "1mxQgsytqmmIgtFR",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!xSstfY2xbRrUZRW8"
+}

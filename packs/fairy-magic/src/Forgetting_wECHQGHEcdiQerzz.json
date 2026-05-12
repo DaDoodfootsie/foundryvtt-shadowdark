@@ -1,0 +1,33 @@
+{
+  "_id": "wECHQGHEcdiQerzz",
+  "name": "Forgetting",
+  "type": "Glamour",
+  "img": "icons/magic/air/wind-stream-green.webp",
+  "system": {
+    "description": "<p>With a twinkle of the eye, you cause a single mortal or animal to forget what they just witnessed a moment before (the previous round).</p><p>A subject of LV 2 or less makes a normal CHA check to resist the glamour. You may use this glamour once per day, per subject.</p>",
+    "usageType": "daily",
+    "range": "Near",
+    "duration": "Instant",
+    "used": false,
+    "lastUsedTime": 0
+  },
+  "effects": [],
+  "folder": "tIYFOzUDOTvVZDZA",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!wECHQGHEcdiQerzz"
+}

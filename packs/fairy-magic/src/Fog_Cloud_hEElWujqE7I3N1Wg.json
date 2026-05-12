@@ -1,0 +1,31 @@
+{
+  "_id": "hEElWujqE7I3N1Wg",
+  "name": "Fog Cloud",
+  "type": "Rune",
+  "img": "icons/magic/symbols/runes-star-blue.svg",
+  "system": {
+    "description": "<p>A cloud of roiling vapor surrounds you, filling a near-sized cube. The fog blocks mundane vision for everyone except you.</p>",
+    "magnitude": "lesser",
+    "range": "Near",
+    "duration": "5 Rounds"
+  },
+  "effects": [],
+  "folder": "i5OfSbPK5y9KlOB8",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!hEElWujqE7I3N1Wg"
+}

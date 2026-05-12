@@ -1,0 +1,22 @@
+{
+  "_id": "1mxQgsytqmmIgtFR",
+  "name": "Greater Runes",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "color": "#6a4a9a",
+  "sort": 200,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!1mxQgsytqmmIgtFR"
+}

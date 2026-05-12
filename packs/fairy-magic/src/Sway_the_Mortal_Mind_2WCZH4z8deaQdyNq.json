@@ -1,0 +1,31 @@
+{
+  "_id": "2WCZH4z8deaQdyNq",
+  "name": "Sway the Mortal Mind",
+  "type": "Rune",
+  "img": "icons/magic/symbols/runes-star-blue.svg",
+  "system": {
+    "description": "<p>A single mortal of LV 2 or lower is swayed to regard you as a close friend. The charmed subject will come to your defense and may be given commands if you speak the same language.</p>",
+    "magnitude": "lesser",
+    "range": "Near",
+    "duration": "1 Day"
+  },
+  "effects": [],
+  "folder": "i5OfSbPK5y9KlOB8",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!2WCZH4z8deaQdyNq"
+}

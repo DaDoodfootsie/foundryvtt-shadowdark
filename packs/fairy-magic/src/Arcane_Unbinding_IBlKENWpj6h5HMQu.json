@@ -1,0 +1,31 @@
+{
+  "_id": "IBlKENWpj6h5HMQu",
+  "name": "Arcane Unbinding",
+  "type": "Rune",
+  "img": "icons/magic/symbols/runes-star-purple.svg",
+  "system": {
+    "description": "<p>You conjure an anti-magic near-sized cube within range that negates all arcane and fairy magic inside it. Any permanent spells cast by a creature of higher level than you are unaffected.</p>",
+    "magnitude": "greater",
+    "range": "Near",
+    "duration": "Instant"
+  },
+  "effects": [],
+  "folder": "1mxQgsytqmmIgtFR",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!IBlKENWpj6h5HMQu"
+}

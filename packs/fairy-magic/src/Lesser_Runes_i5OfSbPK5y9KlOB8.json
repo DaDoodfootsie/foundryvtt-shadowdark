@@ -1,0 +1,22 @@
+{
+  "_id": "i5OfSbPK5y9KlOB8",
+  "name": "Lesser Runes",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "color": "#4a6a9a",
+  "sort": 100,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!i5OfSbPK5y9KlOB8"
+}

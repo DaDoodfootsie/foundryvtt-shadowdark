@@ -1,0 +1,33 @@
+{
+  "_id": "uRiVnc77gP0Y8uW6",
+  "name": "Seeming",
+  "type": "Glamour",
+  "img": "icons/magic/air/wind-stream-green.webp",
+  "system": {
+    "description": "<p>You may make your clothing appear as you wish. The glamour is only visual, however, and is dispelled by touch.</p>",
+    "usageType": "unlimited",
+    "range": "Self",
+    "duration": "Instant",
+    "used": false,
+    "lastUsedTime": 0
+  },
+  "effects": [],
+  "folder": "tIYFOzUDOTvVZDZA",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!uRiVnc77gP0Y8uW6"
+}

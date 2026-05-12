@@ -1,0 +1,31 @@
+{
+  "_id": "h2pvY1nNwuRmGemY",
+  "name": "Rune of Invisibility",
+  "type": "Rune",
+  "img": "icons/magic/symbols/runes-star-purple.svg",
+  "system": {
+    "description": "<p>You are rendered invisible to the sight of all beings.</p>",
+    "magnitude": "greater",
+    "range": "Self",
+    "duration": "1 Day"
+  },
+  "effects": [],
+  "folder": "1mxQgsytqmmIgtFR",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!h2pvY1nNwuRmGemY"
+}

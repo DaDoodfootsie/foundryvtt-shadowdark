@@ -1,0 +1,22 @@
+{
+  "_id": "tIYFOzUDOTvVZDZA",
+  "name": "Glamours",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "color": "#3a7a5a",
+  "sort": 400,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!tIYFOzUDOTvVZDZA"
+}

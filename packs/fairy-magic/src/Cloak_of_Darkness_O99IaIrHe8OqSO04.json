@@ -1,0 +1,33 @@
+{
+  "_id": "O99IaIrHe8OqSO04",
+  "name": "Cloak of Darkness",
+  "type": "Glamour",
+  "img": "icons/magic/air/wind-stream-green.webp",
+  "system": {
+    "description": "<p>You conjure an area of gloom and shadow, hiding yourself from mundane sight.</p><p>The cloak of shadows lasts as long as you remain motionless and perform no other actions.</p><p>You may use this glamour once per day, per subject.</p>",
+    "usageType": "daily",
+    "range": "Self",
+    "duration": "Special",
+    "used": false,
+    "lastUsedTime": 0
+  },
+  "effects": [],
+  "folder": "tIYFOzUDOTvVZDZA",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!O99IaIrHe8OqSO04"
+}

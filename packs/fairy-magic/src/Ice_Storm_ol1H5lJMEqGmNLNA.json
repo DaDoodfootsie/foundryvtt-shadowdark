@@ -1,0 +1,31 @@
+{
+  "_id": "ol1H5lJMEqGmNLNA",
+  "name": "Ice Storm",
+  "type": "Rune",
+  "img": "icons/magic/symbols/runes-star-purple.svg",
+  "system": {
+    "description": "<p>You summon a violent maelstrom of hail and sleet that descends on a near-sized cube. All creatures within the cube take 3d8 damage and the surface of the ground remains icy and slippery for 5 rounds.</p>",
+    "magnitude": "greater",
+    "range": "Far",
+    "duration": "Instant"
+  },
+  "effects": [],
+  "folder": "1mxQgsytqmmIgtFR",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ol1H5lJMEqGmNLNA"
+}

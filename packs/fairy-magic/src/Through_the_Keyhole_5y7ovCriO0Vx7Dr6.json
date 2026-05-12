@@ -1,0 +1,33 @@
+{
+  "_id": "5y7ovCriO0Vx7Dr6",
+  "name": "Through the Keyhole",
+  "type": "Glamour",
+  "img": "icons/magic/air/wind-stream-green.webp",
+  "system": {
+    "description": "<p>You may step through any door with a keyhole, peephole, or other small aperture that you touch.</p><p>Magically sealed doors thwart this glamour. You may only use this glamour once per day, per door.</p>",
+    "usageType": "daily",
+    "range": "Touch",
+    "duration": "Instant",
+    "used": false,
+    "lastUsedTime": 0
+  },
+  "effects": [],
+  "folder": "tIYFOzUDOTvVZDZA",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!5y7ovCriO0Vx7Dr6"
+}

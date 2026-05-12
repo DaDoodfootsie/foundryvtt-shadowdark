@@ -1,0 +1,33 @@
+{
+  "_id": "QYzW8ixdp6xGch4t",
+  "name": "Subtle Sight",
+  "type": "Glamour",
+  "img": "icons/magic/air/wind-stream-green.webp",
+  "system": {
+    "description": "<p>You can sometimes spot invisible creatures or objects, perceiving them as a faint, shimmering outline.</p><p>The GM should use a d6 decider die to determine whether or not you notice invisible creatures or objects.</p>",
+    "usageType": "unlimited",
+    "range": "Self",
+    "duration": "Permanent",
+    "used": false,
+    "lastUsedTime": 0
+  },
+  "effects": [],
+  "folder": "tIYFOzUDOTvVZDZA",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!QYzW8ixdp6xGch4t"
+}

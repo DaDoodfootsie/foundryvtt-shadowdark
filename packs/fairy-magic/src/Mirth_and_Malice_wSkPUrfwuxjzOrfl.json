@@ -1,0 +1,33 @@
+{
+  "_id": "wSkPUrfwuxjzOrfl",
+  "name": "Mirth and Malice",
+  "type": "Glamour",
+  "img": "icons/magic/air/wind-stream-green.webp",
+  "system": {
+    "description": "<p>When speaking to a group of mortals, you can impart a subtle sense of shared cheer or creeping discord.</p><p>After a round spent speaking, all LV 2 mortals in range express great anger or affection. You have no control over how these feelings are directed or expressed. When you stop speaking the imparted emotion dissipates.</p><p>You may use this glamour once per day.</p>",
+    "usageType": "daily",
+    "range": "Near",
+    "duration": "While speaking",
+    "used": false,
+    "lastUsedTime": 0
+  },
+  "effects": [],
+  "folder": "tIYFOzUDOTvVZDZA",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!wSkPUrfwuxjzOrfl"
+}

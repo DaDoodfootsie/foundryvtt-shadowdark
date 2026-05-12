@@ -1,0 +1,31 @@
+{
+  "_id": "9tX7ftfMiCcPBtzW",
+  "name": "Fairy Gold",
+  "type": "Rune",
+  "img": "icons/magic/symbols/runes-star-purple.svg",
+  "system": {
+    "description": "<p>You conjure a leather bag full of 2d20 gold pieces from the vaults of the fairy noble who granted this rune. When the duration expires, the coins are whisked back to Fairy.</p>",
+    "magnitude": "greater",
+    "range": "Self",
+    "duration": "1d6 Hours"
+  },
+  "effects": [],
+  "folder": "1mxQgsytqmmIgtFR",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!9tX7ftfMiCcPBtzW"
+}

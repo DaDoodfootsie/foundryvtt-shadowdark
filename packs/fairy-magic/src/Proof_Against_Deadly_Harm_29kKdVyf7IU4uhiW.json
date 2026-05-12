@@ -1,0 +1,31 @@
+{
+  "_id": "29kKdVyf7IU4uhiW",
+  "name": "Proof Against Deadly Harm",
+  "type": "Rune",
+  "img": "icons/magic/symbols/runes-star-blue.svg",
+  "system": {
+    "description": "<p>You are rendered completely immune to damage from one specific type of weapon (e.g. swords, bows, claws, etc). Enchanted weapons and cold iron still harm you.</p>",
+    "magnitude": "lesser",
+    "range": "Self",
+    "duration": "2d6 Rounds"
+  },
+  "effects": [],
+  "folder": "i5OfSbPK5y9KlOB8",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!29kKdVyf7IU4uhiW"
+}

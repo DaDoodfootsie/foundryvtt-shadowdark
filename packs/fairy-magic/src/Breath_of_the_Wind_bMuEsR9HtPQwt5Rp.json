@@ -1,0 +1,33 @@
+{
+  "_id": "bMuEsR9HtPQwt5Rp",
+  "name": "Breath of the Wind",
+  "type": "Glamour",
+  "img": "icons/magic/air/wind-stream-green.webp",
+  "system": {
+    "description": "<p>An enchanted flurry of wind causes dust to billow and leaves to rustle around you. While outside, you may move silently while the wind blows.</p><p>You may use this glamour once per day.</p>",
+    "usageType": "daily",
+    "range": "Near",
+    "duration": "1d4 Rounds",
+    "used": false,
+    "lastUsedTime": 0
+  },
+  "effects": [],
+  "folder": "tIYFOzUDOTvVZDZA",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!bMuEsR9HtPQwt5Rp"
+}

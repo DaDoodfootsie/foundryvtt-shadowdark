@@ -1,0 +1,31 @@
+{
+  "_id": "UWo2RL9daAqydHnJ",
+  "name": "Deathly Blossom",
+  "type": "Rune",
+  "img": "icons/magic/symbols/runes-star-blue.svg",
+  "system": {
+    "description": "<p>An exquisite white rose is conjured into your hand. Anyone who smells the flower must make a DC 12 CON check or fall into a deep slumber for 2d6 rounds.</p>",
+    "magnitude": "lesser",
+    "range": "Self",
+    "duration": "5 Rounds"
+  },
+  "effects": [],
+  "folder": "i5OfSbPK5y9KlOB8",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!UWo2RL9daAqydHnJ"
+}

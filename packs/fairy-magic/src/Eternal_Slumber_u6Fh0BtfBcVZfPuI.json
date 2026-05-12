@@ -1,0 +1,31 @@
+{
+  "_id": "u6Fh0BtfBcVZfPuI",
+  "name": "Eternal Slumber",
+  "type": "Rune",
+  "img": "icons/magic/symbols/runes-star-red.svg",
+  "system": {
+    "description": "<p>A mortal within range is placed into a state of stasis and eternal sleep. They may only be woken by dispelling the rune's magic or by a condition set by you.</p>",
+    "magnitude": "mighty",
+    "range": "Near",
+    "duration": "Permanent"
+  },
+  "effects": [],
+  "folder": "G6CQU67bNiV0Xhzx",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!u6Fh0BtfBcVZfPuI"
+}

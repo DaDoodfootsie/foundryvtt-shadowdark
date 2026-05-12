@@ -1,0 +1,31 @@
+{
+  "_id": "xYfiJVeCCWy5QNJC",
+  "name": "Rune of Vanishing",
+  "type": "Rune",
+  "img": "icons/magic/symbols/runes-star-blue.svg",
+  "system": {
+    "description": "<p>You are rendered invisible to the sight of mortals and animals.</p>",
+    "magnitude": "lesser",
+    "range": "Self",
+    "duration": "5 Rounds"
+  },
+  "effects": [],
+  "folder": "i5OfSbPK5y9KlOB8",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!xYfiJVeCCWy5QNJC"
+}

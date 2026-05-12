@@ -1,0 +1,33 @@
+{
+  "_id": "X1hgNJx7CynQGogM",
+  "name": "Masquerade",
+  "type": "Glamour",
+  "img": "icons/magic/air/wind-stream-green.webp",
+  "system": {
+    "description": "<p>With a minor illusion, you can make subtle changes to your facial features (e.g. eye color, hair color).</p><p>More dramatic changes may require multiple rounds. It is not possible to perfectly duplicate a specific individual using this glamour.</p>",
+    "usageType": "unlimited",
+    "range": "Self",
+    "duration": "Instant",
+    "used": false,
+    "lastUsedTime": 0
+  },
+  "effects": [],
+  "folder": "tIYFOzUDOTvVZDZA",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!X1hgNJx7CynQGogM"
+}

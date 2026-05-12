@@ -1,0 +1,31 @@
+{
+  "_id": "kZ11B9FQ58w0utSC",
+  "name": "Gust of Wind",
+  "type": "Rune",
+  "img": "icons/magic/symbols/runes-star-blue.svg",
+  "system": {
+    "description": "<p>A forceful blast of air rushes from your outstretched hand, blowing over objects in its course and extinguishing flames.</p>",
+    "magnitude": "lesser",
+    "range": "Near",
+    "duration": "Instant"
+  },
+  "effects": [],
+  "folder": "i5OfSbPK5y9KlOB8",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!kZ11B9FQ58w0utSC"
+}

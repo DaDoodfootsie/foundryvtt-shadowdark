@@ -1,0 +1,33 @@
+{
+  "_id": "pjcnoxMPo2H1MmDI",
+  "name": "Walk in Shadows",
+  "type": "Glamour",
+  "img": "icons/magic/air/wind-stream-green.webp",
+  "system": {
+    "description": "<p>You attempt to disappear into the shadowy path between worlds, using a shadow door. The GM should use the d6 decider die to determine if you find a shadow door to step through.</p><p>If you step through a door, you reappear after one round in a random location a near distance away.</p>",
+    "usageType": "daily",
+    "range": "Self",
+    "duration": "1 Round",
+    "used": false,
+    "lastUsedTime": 0
+  },
+  "effects": [],
+  "folder": "tIYFOzUDOTvVZDZA",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!pjcnoxMPo2H1MmDI"
+}

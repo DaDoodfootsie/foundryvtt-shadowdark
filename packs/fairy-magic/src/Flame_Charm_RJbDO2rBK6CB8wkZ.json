@@ -1,0 +1,33 @@
+{
+  "_id": "RJbDO2rBK6CB8wkZ",
+  "name": "Flame Charm",
+  "type": "Glamour",
+  "img": "icons/magic/air/wind-stream-green.webp",
+  "system": {
+    "description": "<p>You may conjure or extinguish a small flame from your fingertip. The flame sheds light in close range.</p>",
+    "usageType": "unlimited",
+    "range": "Close",
+    "duration": "Instant",
+    "used": false,
+    "lastUsedTime": 0
+  },
+  "effects": [],
+  "folder": "tIYFOzUDOTvVZDZA",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!RJbDO2rBK6CB8wkZ"
+}

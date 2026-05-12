@@ -1,0 +1,33 @@
+{
+  "_id": "42C3jx6RyPsZjbF7",
+  "name": "Dancing Flame",
+  "type": "Glamour",
+  "img": "icons/magic/air/wind-stream-green.webp",
+  "system": {
+    "description": "<p>You command a small flame burning within range to disconnect from its source and float through the air. The flame can be moved up to near each round.</p><p>You must concentrate while using this glamour and cannot perform any other actions while it is active.</p>",
+    "usageType": "unlimited",
+    "range": "Double Near",
+    "duration": "2d6 Rounds",
+    "used": false,
+    "lastUsedTime": 0
+  },
+  "effects": [],
+  "folder": "tIYFOzUDOTvVZDZA",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!42C3jx6RyPsZjbF7"
+}

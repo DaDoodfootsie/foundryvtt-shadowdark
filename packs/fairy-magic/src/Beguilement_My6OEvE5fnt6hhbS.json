@@ -1,0 +1,33 @@
+{
+  "_id": "My6OEvE5fnt6hhbS",
+  "name": "Beguilement",
+  "type": "Glamour",
+  "img": "icons/magic/air/wind-stream-green.webp",
+  "system": {
+    "description": "<p>Your words have great power over mortal minds. A single mortal addressed by you, of LV 2 or less, believes your words for a brief period.</p><p>After the duration ends, it is immediately obvious that a magical deception has occurred. You may use this glamour once per day, per subject.</p>",
+    "usageType": "daily",
+    "range": "Near",
+    "duration": "1d4 Rounds",
+    "used": false,
+    "lastUsedTime": 0
+  },
+  "effects": [],
+  "folder": "tIYFOzUDOTvVZDZA",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!My6OEvE5fnt6hhbS"
+}

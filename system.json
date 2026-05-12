@@ -135,6 +135,15 @@
 			"flags": {}
 		},
 		{
+			"name": "fairy-magic",
+			"label": "Dolmenwood Fairy Magic",
+			"system": "shadowdark",
+			"path": "packs/fairy-magic",
+			"type": "Item",
+			"private": false,
+			"flags": {}
+		},
+		{
 			"name": "ancestries",
 			"label": "Ancestries",
 			"system": "shadowdark",

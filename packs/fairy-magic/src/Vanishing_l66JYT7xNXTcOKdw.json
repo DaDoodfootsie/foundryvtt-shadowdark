@@ -1,0 +1,33 @@
+{
+  "_id": "l66JYT7xNXTcOKdw",
+  "name": "Vanishing",
+  "type": "Glamour",
+  "img": "icons/magic/air/wind-stream-green.webp",
+  "system": {
+    "description": "<p>You briefly disappear from the sight of a selected creature within range.</p><p>You may use this glamour once per day, per subject.</p>",
+    "usageType": "daily",
+    "range": "Near",
+    "duration": "1d4 Rounds",
+    "used": false,
+    "lastUsedTime": 0
+  },
+  "effects": [],
+  "folder": "tIYFOzUDOTvVZDZA",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!l66JYT7xNXTcOKdw"
+}

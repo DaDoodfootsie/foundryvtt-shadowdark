@@ -1,0 +1,33 @@
+{
+  "_id": "SicgWVJHLP93trua",
+  "name": "Conjure Treats",
+  "type": "Glamour",
+  "img": "icons/magic/air/wind-stream-green.webp",
+  "system": {
+    "description": "<p>You conjure a delicious treat. If the treat is offered to a mortal or animal, their disposition toward you is improved. The treats do not provide genuine sustenance.</p>",
+    "usageType": "unlimited",
+    "range": "Self",
+    "duration": "Permanent",
+    "used": false,
+    "lastUsedTime": 0
+  },
+  "effects": [],
+  "folder": "tIYFOzUDOTvVZDZA",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!SicgWVJHLP93trua"
+}
