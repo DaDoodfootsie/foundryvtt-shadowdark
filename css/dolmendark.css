@@ -492,3 +492,29 @@
 	color: #6a4a9a;
 	margin: 0;
 }
+
+/* -------------------------------------------- */
+/* Fairy Magic — Undo Button                    */
+/* -------------------------------------------- */
+
+.fairy-undo-btn {
+	color: #aa3333 !important;
+	opacity: 0.7;
+}
+
+.fairy-undo-btn:hover {
+	opacity: 1 !important;
+}
+
+/* -------------------------------------------- */
+/* Fairy Magic — Description Dialog             */
+/* -------------------------------------------- */
+
+.dolmendark-item-description {
+	padding: 0.25rem 0.25rem 0.5rem;
+	line-height: 1.5;
+}
+
+.dolmendark-item-description p {
+	margin: 0 0 0.5rem;
+}

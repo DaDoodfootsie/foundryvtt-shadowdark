@@ -11,7 +11,8 @@
       "no_glamours": "No glamours known.",
       "no_runes": "No runes granted.",
       "use_glamour": "Use Glamour",
-      "use_rune": "Invoke Rune"
+      "use_rune": "Invoke Rune",
+      "undo_cast": "Undo Cast"
     },
     "glamour": {
       "usage": {
@@ -32,7 +33,15 @@
         "mighty": "Mighty"
       },
       "roll_granted": "Roll Rune Granted",
-      "granted_roll_flavor": "Rune Granted — consulting the fairy nobles..."
+      "granted_roll_flavor": "Rune Granted — consulting the fairy nobles...",
+      "used": "Used",
+      "reset": {
+        "daily": "Resets: Daily",
+        "weekly": "Resets: Weekly",
+        "levelUp": "Resets: On Level Up",
+        "yearly": "Resets: Yearly",
+        "never": "Once Ever"
+      }
     },
     "item": {
       "range": "Range",
